@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+body {
+  font-family: Montserrat;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navLink {
+  margin: 1em;
+  font-size: 2ch;
+  transition-duration: 400ms;
+}
+
+.navLink:hover{
+  color: #f88909;
+}
+
+.kotlinGradient {
+  background: linear-gradient(96.11deg, #c757bc 0%, #f88909 100%);
+  height: 40vh;
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kotlinautasTitle {
+  font-size: 7ch;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.sectionWithContent {
+  margin-bottom: 10vh;
+}
+
+.sectionTitle {
+  font-size: 5ch;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 5vh;
+}
+
+.palagraphInContent {
+  margin-bottom: 5vh;
+}
+
+.contentInSection {
+  font-size: 3ch;
+  width: 60%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.imageInSection {
+  max-width: 7em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionLink {
+  color: #f88909;
+  font-weight: bold;
+  padding: 0.1em;
+  transition-duration: 400ms;
+}
+
+.sectionLink:hover {
+  background-color: #c757bc;
+  color: white;
+  border-radius: 0.1em;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.socialLink {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.kotlinautasFooter {
+  background: linear-gradient(96.11deg, #c757bc 0%, #f88909 100%);
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 5ch;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .kotlinautasTitle {
+    font-size: 5.5ch;
+  }
+
+  header {
+    display: none;
+  }
+
+  .kotlinGradient {
+    height: 20vh;
+  }
+
+  .sectionTitle {
+    font-size: 3ch;
+  }
+
+  .contentInSection {
+    font-size: 2.5ch;
+    width: 80%;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+  }
+}
