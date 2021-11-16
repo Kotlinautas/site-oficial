@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-  background-color: #f8f8f8;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   z-index: 100;
@@ -24,7 +24,7 @@ a {
   transition-duration: 400ms;
 }
 
-.navLink:hover{
+.navLink:hover {
   color: #f88909;
 }
 
