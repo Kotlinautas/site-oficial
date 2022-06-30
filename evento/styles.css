@@ -147,6 +147,7 @@ a {
 
     .speakerPronouns {
         font-size: 1.0ch !important;
+        margin: 0 !important;
     }
 }
 
@@ -173,18 +174,29 @@ a {
 }
 
 .nameSection {
-    margin-left: 10px;
     display: flex;
     padding: 10px;
     align-items: baseline;
 }
 
 .speakerName {
+    margin: 0;
     font-size: 1.5ch;
 }
 
 .speakerPronouns {
+    margin: 0;
     font-size: 20px;
+    margin-left: 10px;
+}
+
+.speakerData {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.speakerSocialMedias {
     padding: 10px;
 }
 
@@ -214,6 +226,7 @@ a {
     height: 100px;
     border-radius: 10px;
     margin: auto;
+    margin-top: 20px;
 }
 
 .streamingSection a:hover {
