@@ -176,6 +176,7 @@ a {
 .nameSection {
     display: flex;
     padding: 10px;
+    padding-bottom: 5px;
     align-items: baseline;
 }
 
@@ -188,6 +189,17 @@ a {
     margin: 0;
     font-size: 20px;
     margin-left: 10px;
+}
+
+.role {
+    /* background-color: red; */
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.role p {
+    margin: 0px;
+    padding: 0px;
 }
 
 .speakerData {
@@ -236,4 +248,13 @@ a {
 
 .streamingSection i {
     padding: 10px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo-will {
+    width: 450px;
 }
